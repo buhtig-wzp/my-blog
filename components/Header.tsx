@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useTheme } from './ThemeProvider'
-import { Sun, Moon, Search } from 'lucide-react'
+import { Sun, Moon, Search, PenSquare } from 'lucide-react'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
@@ -37,6 +37,14 @@ export default function Header() {
           </Link>
           <Link href="/tags" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
             标签
+          </Link>
+
+          <Link
+            href="/admin"
+            className="p-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            aria-label="写文章"
+          >
+            <PenSquare size={20} />
           </Link>
 
           <button
