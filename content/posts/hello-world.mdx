@@ -1,0 +1,44 @@
+---
+title: 'Hello World - 我的第一篇博客'
+date: '2024-01-15'
+excerpt: '这是我的第一篇博客文章，介绍如何使用 Next.js 和 MDX 搭建个人博客。'
+category: '技术'
+tags: ['Next.js', 'MDX', '博客']
+---
+
+## 为什么选择 Next.js + MDX？
+
+搭建个人博客有很多选择，但我选择了 **Next.js + MDX** 的组合，原因如下：
+
+- **性能优秀**：Next.js 支持静态生成，页面加载速度极快
+- **MDX 的灵活性**：可以在 Markdown 中使用 React 组件
+- **易于部署**：可以部署到 Vercel、Netlify 等平台
+
+## 快速开始
+
+```bash
+# 创建项目
+npx create-next-app my-blog
+
+# 安装 MDX 相关依赖
+npm install next-mdx-remote gray-matter
+```
+
+## 代码示例
+
+```typescript
+interface Post {
+  title: string
+  date: string
+  content: string
+}
+
+function getPosts(): Post[] {
+  // 读取 MDX 文件并返回文章列表
+  return []
+}
+```
+
+## 总结
+
+使用 Next.js 和 MDX 搭建博客非常简单，而且有很多优势。希望这个系列能够帮助到你！

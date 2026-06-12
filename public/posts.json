@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "markdown-guide",
+    "title": "Markdown 写作指南",
+    "date": "2024-01-20",
+    "excerpt": "Markdown 是一种轻量级标记语言，让你专注于内容创作。本文介绍常用的 Markdown 语法。",
+    "category": "教程",
+    "tags": [
+      "Markdown",
+      "写作"
+    ],
+    "readingTime": "1 分钟"
+  },
+  {
+    "slug": "hello-world",
+    "title": "Hello World - 我的第一篇博客",
+    "date": "2024-01-15",
+    "excerpt": "这是我的第一篇博客文章，介绍如何使用 Next.js 和 MDX 搭建个人博客。",
+    "category": "技术",
+    "tags": [
+      "Next.js",
+      "MDX",
+      "博客"
+    ],
+    "readingTime": "1 分钟"
+  }
+]
